@@ -1,61 +1,12 @@
 baseURL = "https://joshasplund.com/"
 languageCode = "en-us"
 title = "Josh Asplund"
-theme = "minimal"
+theme = "paperback"
 googleAnalytics = ""
 
 [params]
-    author = "Josh Asplund"
-    description = "My personal blog"
-    githubUsername = "joshasplund"
-    accent = "red"
-    showBorder = true
-    backgroundColor = "white"
-    font = "Raleway" # should match the name on Google Fonts!
-    highlight = true
-    highlightStyle = "solarized-dark"
-    highlightLanguages = ["python"]
-
-[[menu.main]]
-    url = "/"
-    name = "Home"
-    weight = 1
-
-[[menu.main]]
-    url = "/posts/"
-    name = "Posts"
-    weight = 2
-
-# [[menu.main]]
-    # url = "/projects/"
-    # name = "Projects"
-    # weight = 3
-
-# Social icons to be shown on the right-hand side of the navigation bar
-# The "name" field should match the name of the icon to be used
-# The list of available icons can be found at http://fontawesome.io/icons/
-
-# [[menu.icon]]
-    # url = "mailto:me@example.com"
-    # name = "envelope-o"
-    # weight = 1
-
-# [[menu.icon]]
-    # url = "https://keybase.io/joshuata"
-    # name = "key"
-    # weight = 1
-
-# [[menu.icon]]
-    # url = "https://github.com/joshuata/"
-    # name = "github"
-    # weight = 2
-
-[[menu.icon]]
-    url = "https://twitter.com/josh_asplund"
-    name = "twitter"
-    weight = 3
-
-# [[menu.icon]]
-    # url = "https://www.stackoverflow.com/username/"
-    # name = "stack-overflow"
-    # weight = 5
+AuthorName = "Josh Asplund"
+Tagline = "Digital sociology and other stuff"
+HomepagePosts = 3
+GithubUsername = "joshuata"
+TwitterUsername = "josh_asplund"
