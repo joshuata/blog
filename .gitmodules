@@ -1,6 +1,3 @@
-[submodule "themes/minimal"]
-	path = themes/minimal
-	url = https://github.com/calintat/minimal.git
 [submodule "themes/paperback"]
 	path = themes/paperback
 	url = https://github.com/damiencaselli/paperback.git
