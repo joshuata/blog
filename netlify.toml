@@ -6,3 +6,8 @@ command = "hugo"
 HUGO_VERSION = "0.46"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
+
+# Redirect default Netlify subdomain to primary domain
+[[redirects]]
+  from = "https://joshuata-blog.netlify.com/*"
+  to = "https://www.joshasplund.com/:splat"

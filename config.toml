@@ -1,7 +1,6 @@
-baseURL = "https://www.joshasplund.com/"
-languageCode = "en-us"
 title = "Josh Asplund"
 theme = "paperback"
+languageCode = "en-us"
 googleAnalytics = "UA-7687230-3"
 
 [params]
